@@ -35,7 +35,7 @@ body{
 }
 
 h1{
-  transition: .5s;
+  transition: .4s;
 }
 
 h1:hover{
@@ -70,10 +70,39 @@ h1:hover{
   border-radius: 8px;
   margin-right: 10%;
   margin-left: 5%;
-  transition: .5s;
+  transition: .4s;
 }
 
 #botao:hover{
   border: none;
   background: #FF2978;
 }
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.headline{
+  margin-left: 10%;
+  flex: 40%;
+}
+
+.headline h2{
+  color: #180f4a;
+  font-size: 80px;
+}
+
+.headline h3{
+  color: #180f4a;
+  letter-spacing: 15px;
+}
+
+.img-headline{
+  margin-right: 10%;
+  flex: 40%;
+  text-align: center;
+}
+
