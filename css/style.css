@@ -6,6 +6,7 @@
 }
 
 body{
+  box-sizing: border-box;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   background: whitesmoke;
@@ -108,10 +109,17 @@ h1:hover{
 .headline p{
   color: gray;
   text-align: justify;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+
+.img-headline{
+  flex: 40%;
+  margin-right: 10%;
+  text-align: center;
 }
 
 .contact-btn{
+  display: inline-block;
   background: #FF2978;
   color: #fff;
   font-weight: 500;
@@ -126,12 +134,6 @@ h1:hover{
   background: #180f4a;
 }
 
-.img-headline{
-  margin-right: 10%;
-  flex: 40%;
-  text-align: center;
-}
-
 section{
   display: inline-block;
   margin: 80px 5% 80px 5%;
@@ -140,7 +142,6 @@ section{
 
   color: #180f4a;
   text-align: center;
-
 }
 
 section h2{
@@ -217,7 +218,6 @@ footer{
   font-family: 'Lobster', cursive;
   font-size: 40px;
   margin-bottom: 8px;
-
 }
 
 .logo-rodape p{
